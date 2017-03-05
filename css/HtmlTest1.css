@@ -1,0 +1,112 @@
+body{
+	background: #2B2B2B;
+	
+}
+#header{
+	position: relative;
+}
+#navigation{
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: #2B2B2B;
+}
+#navigation li{
+	margin: 10px;
+	float: left;
+/*消除影响*/
+}
+
+.lastli>a{
+	color: #888888;
+}
+h1{
+	margin: 0px;
+	text-indent: 30px;
+	line-height: 63px;
+	color: green;
+
+}
+h3,h5{
+	color: #A2A2A2;
+}
+#container{
+	background-color: #d9d9d9;
+	border: 1px solid #d9d9d9;
+	margin-right: 32px;
+	margin-left: 32px;
+}
+.FirstMain,.SecondMain,.Gallery,.LastMain,.SideBar{
+	border: 5px solid  white;
+	background-color: white;
+	margin: 10px 20px;
+	box-shadow:5px 5px 2px #888888;
+	/*边框产生阴影*/
+}
+.FirstMain p,.SecondMain p,.LastMain p{
+	text-indent: 32px;
+}
+.SecondMain li{
+	list-style: none;
+}
+.pic01,.pic02,.pic03{
+	border: 3px solid #EEEEEE;
+	margin: 10px 20px;
+	text-align: center;
+	width: 150px;
+	height: 150px;
+}
+.Gallery img{
+	width: 100px;
+	height: 80px;
+}
+.LastMain>table{
+	width: 100%;
+	border: 1px solid #888888;
+	text-align: left;
+}
+.LastMain>table>thead{
+	background-color: black;
+	color: white;
+}
+.LastMain>table>tfoot{
+	background: #d9d9d9;
+	border: 1px solid #888888;
+}
+#navigation,#footer{
+	margin-right: 32px;
+	margin-left: 32px;
+}
+.SideBar .button{
+	background: blue;
+	width: 100%;
+	height: 40px;
+	display: block;
+	vertical-align: middle;
+	border-radius: 15px;
+	font-size: 20px;
+	color:white;
+}
+.SideBar>h1{
+	border-left: 5px solid #d9d9d9;
+}
+.LogIn{
+	text-align: right;
+	margin-right: 615px;
+}
+.Other{
+	margin-left: 380px;
+	/*在2345浏览器为margin-left: 400px;*/
+}
+.Another{
+	margin-left: 347px;
+	/*在2345浏览器中为margin-left: 367px;*/
+}
+#footer>span{
+	color: white;
+	display: block;
+	text-align: center;
+	line-height: 50px;
+	/*如果不使行内元素变成块状元素就不能使用TEXT-ALIGN*/
+}
+
